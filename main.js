@@ -1,9 +1,15 @@
-function createGame(player1, hour, player2, group) {
+function createGame(player1, hour, player2,) {
   return `  
    <li>
-    <img src="./assets/flags/icon-${player1}.svg" alt="Bandeira do ${player1}" />
+    <figure>
+      <img src="./assets/flags/icon-${player1}.svg" alt="Bandeira do ${player1}"/>
+      <figcaption>${player1}</figcaption>
+    </figure>
     <strong>${hour}</strong>
-    <img src="./assets/flags/icon-${player2}.svg" alt="Bandeira do ${player2}" />
+    <figure>
+      <img src="./assets/flags/icon-${player2}.svg" alt="Bandeira do ${player2}"/>
+      <figcaption>${player2}</figcaption>
+    <figure>
   </li>
   `
 }
@@ -25,23 +31,23 @@ function createCard(date, day, games, group) {
 
 document.querySelector("#app").innerHTML = `
 
-      <header>
-      <img src="./assets/bg/logo-qatar-2022.png" alt="Logo da NLW" />
-      </header>
-      <main id="cards">
-      ${createCard(
-        "20/11",
-        "domingo",
-        createGame("brasil", "16:00", "sérvia") +
-        createGame("brasil", "16:00", "sérvia"),
-        "grupo a"
-      )}
+  <header>
+    <img src="./assets/bg/logo-qatar-2022.png" alt="Logo da NLW" />
+  </header>
+    <main id="cards">
+    ${createCard(
+    "20/11",
+    "domingo",
+    createGame("brasil", "16:00", "sérvia") +
+    createGame("brasil", "16:00", "sérvia"),
+    "grupo a"
+    )}
 
       ${createCard(
         "28/11",
         "segunda",
         createGame("brasil", "13:00", "suiça") +
-        createGame("brasil", "13:00", "suiça"),
+          createGame("brasil", "13:00", "suiça"),
         "grupo a"
       )}
 
@@ -49,7 +55,7 @@ document.querySelector("#app").innerHTML = `
         "02/12",
         "sexta",
         createGame("brasil", "16:00", "camaroes") +
-        createGame("brasil", "16:00", "camaroes"),
+          createGame("brasil", "16:00", "camaroes"),
         "grupo a"
       )}
 
@@ -57,8 +63,22 @@ document.querySelector("#app").innerHTML = `
         "02/12",
         "sexta",
         createGame("brasil", "16:00", "camaroes") +
-        createGame("brasil", "16:00", "camaroes"),
+          createGame("brasil", "16:00", "camaroes"),
         "grupo a"
       )}
+       ${createCard(
+         "02/12",
+         "sexta",
+         createGame("brasil", "16:00", "camaroes") +
+           createGame("brasil", "16:00", "camaroes"),
+         "grupo a"
+       )}
+        ${createCard(
+          "02/12",
+          "sexta",
+          createGame("brasil", "16:00", "camaroes") +
+            createGame("brasil", "16:00", "camaroes"),
+          "grupo a"
+        )}
       </main>
 `
