@@ -35,50 +35,27 @@ document.querySelector("#app").innerHTML = `
     <img src="./assets/bg/logo-qatar-2022.png" alt="Logo da NLW" />
   </header>
     <main id="cards">
-    ${createCard(
+    
+    ${createCard( /*card 1 */
     "20/11",
     "domingo",
-    createGame("brasil", "16:00", "sérvia") +
-    createGame("brasil", "16:00", "sérvia"),
+    createGame("catar", "13:00", "equador"),
     "grupo a"
     )}
 
-      ${createCard(
-        "28/11",
-        "segunda",
-        createGame("brasil", "13:00", "suiça") +
-          createGame("brasil", "13:00", "suiça"),
-        "grupo a"
-      )}
+    ${createCard( /* car 2 */
+    "21/11",
+    "segunda",
+    createGame("senegal", "13:00", "holanda"),
+    "grupo a"
+    )}
 
-      ${createCard(
-        "02/12",
-        "sexta",
-        createGame("brasil", "16:00", "camaroes") +
-          createGame("brasil", "16:00", "camaroes"),
-        "grupo a"
-      )}
-
-      ${createCard(
-        "02/12",
-        "sexta",
-        createGame("brasil", "16:00", "camaroes") +
-          createGame("brasil", "16:00", "camaroes"),
-        "grupo a"
-      )}
-       ${createCard(
-         "02/12",
-         "sexta",
-         createGame("brasil", "16:00", "camaroes") +
-           createGame("brasil", "16:00", "camaroes"),
-         "grupo a"
-       )}
-        ${createCard(
-          "02/12",
-          "sexta",
-          createGame("brasil", "16:00", "camaroes") +
-            createGame("brasil", "16:00", "camaroes"),
-          "grupo a"
-        )}
+    ${createCard( /* card 3 */
+    "21/11",
+    "segunda",
+    createGame("inglaterra", "10:00", "irã") +
+    createGame("eua", "16:00", "wales"),
+    "grupo b"
+    )}
       </main>
 `
