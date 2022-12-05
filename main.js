@@ -39,28 +39,28 @@ document.querySelector("#app").innerHTML = `
     ${createCard( /*card 1  pronto*/
     "03/12",
     "sábado",
-    createGame("holanda", "12:00", "eua"),
+    createGame("holanda", "3 x 1", "eua"),
     "1° oitavas"
     )}
 
     ${createCard( /* car 2 pronto*/
     "03/12",
     "sábado",
-    createGame("argentina", "16:00", "austrália"),
+    createGame("argentina", "2 x 1", "austrália"),
     "2° oitavas"
     )}
 
     ${createCard( /* card 3 pronto*/
     "04/12",
     "domingo",
-    createGame("frança", "12:00", "polônia"),
+    createGame("frança", "3 x 1", "polônia"),
     "3° oitavas"
     )}
 
     ${createCard( /* card 4 pronto*/
     "04/12",
     "domingo",
-    createGame("inglaterra", "16:00", "senegal"),
+    createGame("inglaterra", "3 x 0", "senegal"),
     "4° oitavas"
     )}
 
