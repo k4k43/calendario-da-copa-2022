@@ -1,4 +1,4 @@
-function createGame(player1, scoreboard, player2,) {
+function createGame(player1, scoreboard, player2) {
   return `  
    <li>
     <figure>
@@ -67,28 +67,28 @@ document.querySelector("#app").innerHTML = `
     ${createCard( /* card 5 pronto*/
     "05/12",
     "segunda",
-    createGame("japão", "12:00", "croácia"),
+    createGame("japão", "2 x 4", "croácia"),
     "5° oitavas"
     )}
 
       ${createCard( /* card 6 pronto*/
     "05/12",
     "segunda",
-    createGame("brasil", "16:00", "coreia-do-sul"),
+    createGame("brasil", "4 x 1", "coreia-do-sul"),
     "6° oitavas"
     )}
 
     ${createCard( /* card 7 pronto*/
     "06/12",
     "terça",
-    createGame("marrocos", "12:00", "espanha"),
+    createGame("marrocos", "3 x 0", "espanha"),
     "7° oitavas"
     )}
 
     ${createCard( /* card 8 pronto*/
     "06/12",
     "terça",
-    createGame("portugal", "16:00", "suiça"),
+    createGame("portugal", "6 x 1", "suiça"),
     "8° oitavas"
     )}
     </main>
