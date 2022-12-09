@@ -37,59 +37,31 @@ document.querySelector("#app").innerHTML = `
     <main id="cards">
     
     ${createCard( /*card 1  pronto*/
-    "03/12",
-    "sábado",
-    createGame("holanda", "3 x 1", "eua"),
-    "1° oitavas"
+    "09/12",
+    "sexta-feira",
+    createGame("brasil", "12:00", "croácia"),
+    "1° quartas"
     )}
 
     ${createCard( /* car 2 pronto*/
-    "03/12",
-    "sábado",
-    createGame("argentina", "2 x 1", "austrália"),
-    "2° oitavas"
+    "09/12",
+    "sexta-feira",
+    createGame("argentina", "16:00", "holanda"),
+    "2° quartas"
     )}
 
     ${createCard( /* card 3 pronto*/
-    "04/12",
-    "domingo",
-    createGame("frança", "3 x 1", "polônia"),
-    "3° oitavas"
+    "10/12",
+    "sábado",
+    createGame("marrocos", "12:00", "portugal"),
+    "3° quartas"
     )}
 
     ${createCard( /* card 4 pronto*/
-    "04/12",
-    "domingo",
-    createGame("inglaterra", "3 x 0", "senegal"),
-    "4° oitavas"
-    )}
-
-    ${createCard( /* card 5 pronto*/
-    "05/12",
-    "segunda",
-    createGame("japão", "2 x 4", "croácia"),
-    "5° oitavas"
-    )}
-
-      ${createCard( /* card 6 pronto*/
-    "05/12",
-    "segunda",
-    createGame("brasil", "4 x 1", "coreia-do-sul"),
-    "6° oitavas"
-    )}
-
-    ${createCard( /* card 7 pronto*/
-    "06/12",
-    "terça",
-    createGame("marrocos", "3 x 0", "espanha"),
-    "7° oitavas"
-    )}
-
-    ${createCard( /* card 8 pronto*/
-    "06/12",
-    "terça",
-    createGame("portugal", "6 x 1", "suiça"),
-    "8° oitavas"
+    "10/12",
+    "sábado",
+    createGame("inglaterra", "16:00", "frança"),
+    "4° quartas"
     )}
     </main>
 `
