@@ -37,31 +37,17 @@ document.querySelector("#app").innerHTML = `
     <main id="cards">
     
     ${createCard( /*card 1  pronto*/
-    "09/12",
-    "sexta-feira",
-    createGame("brasil", "12:00", "croácia"),
-    "1° quartas"
+    "13/12",
+    "terça-feira",
+    createGame("argentina", "16:00", "croácia"),
+    "1° semifinal"
     )}
 
     ${createCard( /* car 2 pronto*/
-    "09/12",
-    "sexta-feira",
-    createGame("argentina", "16:00", "holanda"),
-    "2° quartas"
-    )}
-
-    ${createCard( /* card 3 pronto*/
-    "10/12",
-    "sábado",
-    createGame("marrocos", "12:00", "portugal"),
-    "3° quartas"
-    )}
-
-    ${createCard( /* card 4 pronto*/
-    "10/12",
-    "sábado",
-    createGame("inglaterra", "16:00", "frança"),
-    "4° quartas"
+    "14/12",
+    "quarta-feira",
+    createGame("frança", "16:00", "marrocos"),
+    "2° semifinal"
     )}
     </main>
 `
