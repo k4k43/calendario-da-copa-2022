@@ -37,17 +37,10 @@ document.querySelector("#app").innerHTML = `
     <main id="cards">
     
     ${createCard( /*card 1  pronto*/
-    "13/12",
-    "terça-feira",
-    createGame("argentina", "16:00", "croácia"),
-    "1° semifinal"
-    )}
-
-    ${createCard( /* car 2 pronto*/
-    "14/12",
-    "quarta-feira",
-    createGame("frança", "16:00", "marrocos"),
-    "2° semifinal"
+    "18/12",
+    "domingo",
+    createGame("argentina", "16:00", "frança"),
+    "final"
     )}
     </main>
 `
